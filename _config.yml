@@ -22,20 +22,13 @@ kramdown:
 timezone: America/Los_Angeles
 locale: "en-US"
 
-header_pages:
-  - index.md
-  - work.md
-  - fun.md
-  - audio.md
-  - diving.md
-  
 author: "Simon Johnston"
-email: johnstonskj@gmail.com
-avatar: "/assets/img/avatars/hell_drib.jpg"
-github_username: johnstonskj
-linkedin_username: simonkjohnston
-facebook_username: simonkjohnston
-instagram_username: johnston4250
+# email: johnstonskj@gmail.com
+# avatar: "/assets/img/avatars/hell_drib.jpg"
+# github_username: johnstonskj
+# linkedin_username: simonkjohnston
+# facebook_username: simonkjohnston
+# instagram_username: johnston4250
 # discourse_username: johnston4250
 # slack_username: johnstonskj@gmail.com
 # slack_channels: racket
@@ -43,10 +36,10 @@ instagram_username: johnston4250
 social:
   type:  Person
   links:
-    - "https://facebook.com/simonkjohnston"
-    - "https://instagram.com/johnston4250"
-    - "https://www.linkedin.com/in/simonkjohnston"
-    - "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
+   # - "https://facebook.com/simonkjohnston"
+   # - "https://instagram.com/johnston4250"
+   # - "https://www.linkedin.com/in/simonkjohnston"
+   # - "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
 # https://www.rustaceans.org/johnstonskj
 
 plugins:
