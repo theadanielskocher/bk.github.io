@@ -2,8 +2,9 @@ title: "dang7rickroll"
 description: "Blog dự phòng của dang7rickroll"
 logo: "/assets/img/avatars/hell_drib.jpg"
 
-url: https://simonkjohnston.life
-repository: johnstonskj/johnstonskj.github.io
+url: "http://theadanielskocher.github.io"
+# repository: johnstonskj/johnstonskj.github.io
+baseurl: ""
 
 theme: minima # https://github.com/jekyll/minima/tree/v2.5.0
 title_separator: "⟫"
