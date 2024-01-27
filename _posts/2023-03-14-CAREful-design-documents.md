@@ -5,86 +5,191 @@ category: work
 tags: [design]
 ---
 
-Let's face it, as a senior engineer a common task is to lead design reviews at different stages of a system's
-life-cycle. This inevitably leads to questions about documenting designs, and specifically design decisions. Over time
-I've come to realize that at each decision point, or discussion of a feature, I find myself asking for the same set of
-information.
+---
+__Advertisement :)__
 
-However, recently as I write another *design review guidelines* document I realized that this common set of four topics
-comes with a rather helpful acronym – CARE. So why should you, the reader, *care* about my neat realization? If nothing
-else, I would bet you already consider these items in technical discussions and so you get to give it a name.
+- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+  resize in browser.
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
 
-# What is CARE?
+You will like those projects!
 
-- *Constraints* --- a set of restrictions, or limitations, within which a system must operate. For example:
+---
 
-  - The system **must** operate within pre-defined SLA's (latency, availability, …).
-  - The system **must not** increase operational costs.
-  - The system **must** be operable on a set of platforms.
-  - The system **must** pass security review(s).
-  - The system **must** launch within a given time-frame.
+# h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-- *Assumptions* --- the set of things we think we know, which typically fall into the following categories.
 
-  - The way **we think** something works.
-  - The way someone **told us** that something works; which in turn may be base only on what that someone thinks it
-    works, and so on.
-  - What a user **said that** they want.
-  - A set of beliefs we take for granted as facts (Quicksort always wins).
-  - A set of biases based upon much of the above, but also including inter-personal and unconscious biases.
+## Horizontal Rules
 
-- *Risks* --- the set of known concerns that we need to address or mitigate. It is common for risks to derive from the
-  last two items; for example, some constraints may require a more complex design than would otherwise suffice, or an
-  assumption may prove untrue and cause re-work of a design. Risks may be non-technical, and we do have a professional
-  obligation (see [Professional Practice](#professional-practice)) to ensure that we raise those as we see them.
+___
 
-- *Effort* --- the enumeration of resources required to accomplish the design, **and** operate/maintain the resulting
-  system(s). While it may make sense to expand *effort* to include *cost* I believe this is invalid. If a cost budget,
-  or calendar deadline is the focus of the design it is a *constraint*. This does not mean we do not consider costs, it
-  should always be a part of our [professional practice](#professional-practice) to carefully balance the costs (and
-  other impacts) of our work.
+---
 
-# Using CARE in design decisions
+***
 
-When faced with a major design decision it is common to document them in a simple manner:
 
-- Problem --- what's new or broken.
-- Potential Solutions --- a set of choices, with pros and cons.
-- Decision --- what did you decide, and why (when you get to that point).
+## Typographic replacements
 
-CARE can apply in each of these sections, although the focus is somewhat
-different in each.
+Enable typographer option to see result.
 
-- Problem --- What constraints does the existing system impose on our choices? What assumptions do we have about the
-  current state? What risks exist in the current system? What effort are we expending to keep the current status quo?
-- Potential Solutions --- What additional constraints do they impose on us? What assumptions do we have about the
-  solution and how it works? What risks do we see with the solution, and what effort will we need to expend to use it?
-- Decision --- The CARE attributes here are usually those associated with the option expressed in the *potential
-  solutions*.
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
 
-# Using CARE in discussions
+test.. test... test..... test?..... test!....
 
-While any one of the CARE attributes may actually be the focus of a technical discussion, I tend to use them as a
-framework to ensure I've looked at things from all four perspectives.
+!!!!!! ???? ,,  -- ---
 
-If nothing else, I believe they provide a good set of terms and terminology, both the four attributes as well as a set
-of derived terms. We have already discussed how constraints include SLAs, costs, time, and so forth. In a similar way
-assumptions may be fundamental beliefs, biases, or transient beliefs – this system is way faster than that one.
+"Smartypants, double quotes" and 'single quotes'
 
-In the case of risks and effort, the terminology used will be much the same but applied in a different manner.
 
-# Professional Practice
+## Emphasis
 
-From the ACM [Software Engineering Code of Ethics and Professional
-Practice](https://ethics.acm.org/code-of-ethics/software-engineering-code/), Principal 3 (PRODUCT):
+**This is bold text**
 
-> 3.01. Strive for high quality, acceptable cost and a reasonable schedule, ensuring significant tradeoffs are clear to
-> and accepted by the employer and the client, and are available for consideration by the user and the public.
+__This is bold text__
 
-> 3.09. Ensure realistic quantitative estimates of cost, scheduling, personnel, quality and outcomes on any project on
-> which they work or propose to work and provide an uncertainty assessment of these estimates.
+*This is italic text*
 
-Principal 8 (SELF):
+_This is italic text_
 
-> 8.02. Improve their ability to create safe, reliable, and useful quality software at reasonable cost and within a
-> reasonable time.
+~~Strikethrough~~
+
+
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+
+
+## Plugins
+
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :cry: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+
+
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+- 19^th^
+- H~2~O
+
+
+### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+
+++Inserted text++
+
+
+### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+
+==Marked text==
