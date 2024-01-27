@@ -4,7 +4,7 @@ logo: "/assets/img/avatars/hell_drib.jpg"
 
 url: "http://theadanielskocher.github.io"
 repository: theadanielskocher/bk.github.io
-baseurl: ""
+# baseurl: ""
 
 theme: minima # https://github.com/jekyll/minima/tree/v2.5.0
 title_separator: "⟫"
