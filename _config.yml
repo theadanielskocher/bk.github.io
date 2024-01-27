@@ -3,7 +3,7 @@ description: "Blog dự phòng của dang7rickroll"
 logo: "/assets/img/avatars/hell_drib.jpg"
 
 url: "http://theadanielskocher.github.io"
-# repository: johnstonskj/johnstonskj.github.io
+repository: theadanielskocher/bk.github.io
 baseurl: ""
 
 theme: minima # https://github.com/jekyll/minima/tree/v2.5.0
