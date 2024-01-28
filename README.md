@@ -1,1 +1,3 @@
-This contains the source, and build configuration, for https://simonkjohnston.life/
+# dang7rickroll
+
+Blog dự phòng của dang7rickroll
