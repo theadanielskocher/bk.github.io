@@ -1,8 +1,8 @@
 ---
-title: "CAREful Design Documents"
+title: "Thông báo nho nhỏ"
 layout: postx
 category: work
-tags: [design]
+tags: [others]
 ---
 
 Xin chào mọi người. Lại là mình đây.
