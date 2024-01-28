@@ -5,6 +5,9 @@ category: work
 tags: [CP,Math]
 ---
 
+> Đăng lên lần đầu tiên: 21/5/2023
+> Đăng lên lên thứ hai: 23/9/2023
+
 Xin chào các bạn. Vì hôm nay chán quá nên mình quyết định sẽ viết blog.
 
 Ở bài viết này mình sẽ viết về một chủ đề liên quan tới toán, nhưng cũng khá liên quan tới tin học, đặc biệt là ở các bài toán liên quan về đếm, đó là "Đại số tổ hợp - Các khái niệm cơ bản".
