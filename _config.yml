@@ -20,10 +20,10 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
   
-timezone: America/Los_Angeles
+timezone: Asia/Ho_Chi_Minh
 locale: "en-US"
 
-author: "Simon Johnston"
+author: "Nguyễn Đình Hải Đăng"
 # email: johnstonskj@gmail.com
 # avatar: "/assets/img/avatars/hell_drib.jpg"
 # github_username: johnstonskj
@@ -37,7 +37,7 @@ author: "Simon Johnston"
 social:
   type:  Person
   links:
-   # - "https://facebook.com/simonkjohnston"
+    - "https://facebook.com/godnient"
    # - "https://instagram.com/johnston4250"
    # - "https://www.linkedin.com/in/simonkjohnston"
    # - "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
@@ -53,7 +53,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      comments: false
+      comments: true
   - scope:
       path: "assets/img"
     values:
