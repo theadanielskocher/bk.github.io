@@ -9,7 +9,7 @@ Xin chào mọi người!
 
 Nếu có thắc mắc, vui lòng liên hệ với mình thông qua facebook dưới đây:
 
-![facebook][https://facebook.com/godnient]
+[facebook](https://facebook.com/godnient)
 
 
 Xin cảm ơn mọi người.
